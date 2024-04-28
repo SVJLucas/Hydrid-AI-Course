@@ -6,7 +6,7 @@
 This repository contains the final assessment for the Hybrid AI course at École CentraleSupélec in Paris, France. The final assessment involves a review of the paper titled "Physics-Informed Deep Neural Operator Networks," available at https://arxiv.org/pdf/2207.05748.
 
 
-# Paper Review: Physics-Informed Deep Neural Operator Networks
+# Paper Review: Physics-Informed Deep Neural Operator Networks (2022)
 
 
 ## Overview of Physics-Informed Neural Networks: Challenges and Advances
