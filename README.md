@@ -69,7 +69,7 @@ $$
 h^{(k+1)}_i = \text{update}^{(k)} \left( h^{(k)}_i, \text{aggregate}^{(k)} \left( \{ h^{(k)}_j \mid \forall j \in N(i) \} \right) \right)
 $$
 
-Extending beyond the capabilities of traditional GNNs, **Graph Kernel Networks (GKNs)** and **Non-local Kernel Networks (NKNs)** represent sophisticated developments that incorporate integral neural operators. GKNs enhance model accuracy and continuity by simulating Green's functions, crucial for solving partial differential equations (PDEs) across iterative kernel integration layers. Conversely, NKNs focus on improving stability and scalability through non-local diffusion-reaction equations, capable of managing more extensive and complex graph-based structures. This advanced approach is represented by the equation:
+Extending beyond the capabilities of traditional GNNs, **Graph Kernel Networks (GKNs)** and **Non-local Kernel Networks (NKNs)** represent sophisticated developments that incorporate integral neural operators. **GKNs enhance model accuracy and continuity by simulating Green's functions**, crucial for solving partial differential equations (PDEs) across iterative kernel integration layers. Conversely, NKNs focus on improving stability and scalability through non-local diffusion-reaction equations, capable of managing more extensive and complex graph-based structures. This advanced approach is represented by the equation:
 
 $$
 u(x) = \int_{\Omega} \kappa_\theta(x, y, a(x), a(y))v(y) \, dy
